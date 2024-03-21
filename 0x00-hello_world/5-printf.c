@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - main program
+ * main - The main program
+ *
+ * Return: the exit code
  */
 int main(void)
 {
