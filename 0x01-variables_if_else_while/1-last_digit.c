@@ -9,11 +9,11 @@
  */
 int main(void)
 {
-	int n;
+	int n, lst;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int lst = abs(n) % 10;
+	lst = abs(n) % 10;
 	lst = n < 0 ? -(lst) : lst;
 	printf("Last digit of %d is %d and is ", n, lst);
 	if (lst == 0)
